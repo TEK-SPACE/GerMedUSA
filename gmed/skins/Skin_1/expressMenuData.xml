@@ -1,0 +1,108 @@
+<SiteMap>
+	<!-- Home -->
+	<item Text="(!admin.menu.Home!)" NavigateUrl="splash.aspx" LookId="TopItemLook"/>
+	<!-- Orders Menu -->
+	<item Text="(!admin.menu.Orders!)" NavigateUrl="orders.aspx"  LookId="TopItemLook">
+		<item Text="(!admin.menu.OrderManage!)" NavigateUrl="orders.aspx" />
+		<item Text="(!admin.menu.FailedTransactions!)" NavigateUrl="failedtransactions.aspx" />
+		<item Text="(!admin.menu.FraudOrders!)" NavigateUrl="fraudorders.aspx" />
+		<item Text="(!admin.menu.Reports!)" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15">
+			<item Text="(!admin.menu.ReportCustomer!)" NavigateUrl="rpt_customers.aspx" />
+			<item Text="(!admin.menu.ReportOrder!)" NavigateUrl="rpt_orders.aspx" />
+			<item Text="(!admin.menu.ReportByCategory!)" NavigateUrl="orderreports.aspx" />
+			<item Text="(!admin.menu.ReportStats!)" NavigateUrl="rpt_stats.aspx" />
+			<item Text="(!admin.menu.ReportEmail!)" NavigateUrl="rpt_emails.aspx" />
+			<item Text="(!admin.menu.ReportCustom!)" NavigateUrl="rpt_custom.aspx" />
+		</item>
+	</item>
+	<!-- Products Menu -->
+	<item Text="(!admin.menu.Products!)" NavigateUrl="entityframe.aspx" LookId="TopItemLook">
+		<item Text="(!admin.menu.ProductMgr!)" NavigateUrl="entityframe.aspx" />
+		<item Text="(!admin.menu.ProductTypes!)" NavigateUrl="producttypes.aspx" />
+		<item Text="(!admin.menu.Manufacturers!)" NavigateUrl="entityframe.aspx?entityname=manufacturer" />
+		<item Text="(!admin.menu.ProductPrices!)" NavigateUrl="prices.aspx" />
+		<item Text="(!admin.menu.ProductSalePrices!)" NavigateUrl="saleprices.aspx" />
+		<item Text="(!admin.menu.ProductImportExport!)" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15">
+			<item Text="(!admin.menu.PriceExport!)" NavigateUrl="exportProductPricing.aspx" />
+			<item Text="(!admin.menu.PriceImport!)" NavigateUrl="importProductPricing.aspx" />
+		</item>
+		<item Text="(!admin.menu.Feeds!)" NavigateUrl="feeds.aspx" />
+	</item>
+	<!-- Organization Menu -->
+	<item Text="(!admin.menu.Organization!)" NavigateUrl="entityframe.aspx?entityname=category"  LookId="TopItemLook">
+		<item Text="(!admin.menu.Categories!)" NavigateUrl="entityframe.aspx?entityname=category" />
+		<item Text="(!admin.menu.Sections!)" NavigateUrl="entityframe.aspx?entityname=section" />
+		<!-- Genres and Vectors are unsupported entities for use by developers familiar with our entity structure
+		<item Text="(!admin.menu.Genres!)" NavigateUrl="entityframe.aspx?entityname=genre" />
+		<item Text="(!admin.menu.Vectors!)" NavigateUrl="entityframe.aspx?entityname=vector" />
+		-->
+	</item>
+	<!-- Content Menu -->
+	<item Text="(!admin.menu.Content!)" NavigateUrl="entityframe.aspx?entityname=category"  LookId="TopItemLook">
+		<item Text="(!admin.menu.Topics!)" NavigateUrl="topics.aspx" />
+		<item Text="(!admin.menu.News!)" NavigateUrl="news.aspx" />
+		<item Text="(!admin.menu.StringResources!)" NavigateUrl="stringresource.aspx" />
+	</item>
+	<!-- Customer Menu -->
+	<item Text="(!admin.menu.Customers!)" NavigateUrl="customers.aspx"  LookId="TopItemLook">
+		<item Text="(!admin.menu.CustomerEdit!)" NavigateUrl="customers.aspx" />
+		<item Text="(!admin.menu.CustomerAdd!)" NavigateUrl="cst_signup.aspx" />
+	</item>
+	<!-- Configuration Menu -->
+	<item Text="(!admin.menu.Configuration!)" NavigateUrl="customers.aspx"  LookId="TopItemLook">
+		<item Text="(!admin.menu.AdvancedConfiguration!)" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15">
+			<item Text="(!admin.menu.AppConfigParameters!)" NavigateUrl="appconfig.aspx" />
+			<item Text="(!admin.menu.RunSQL!)" NavigateUrl="runsql.aspx" />
+			<item Text="(!admin.menu.XMLPackageValidator!)" NavigateUrl="PackageValidation.aspx" />
+		</item>
+		<item Text="(!admin.menu.Wizard!)" NavigateUrl="wizard.aspx" />
+		<item Text="(!admin.menu.Payment!)" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15">
+			<item Text="(!admin.menu.CreditCards!)" NavigateUrl="creditcards.aspx" />			
+		</item>
+		<item Text="(!admin.menu.PricingAndPromotions!)" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15">
+			<item Text="(!admin.menu.Coupons!)" NavigateUrl="coupons.aspx" />
+			<item Text="(!admin.menu.QuantityDiscounts!)" NavigateUrl="quantitydiscounts.aspx" />
+			<item Text="(!admin.menu.OrderOptions!)" NavigateUrl="orderoption.aspx" />
+			<item Text="(!admin.menu.SalesPrompts!)" NavigateUrl="salesprompts.aspx" />
+			<item Text="(!admin.menu.Mailing!)" NavigateUrl="mailingmgr.aspx" />
+		</item>
+		<item Text="(!admin.menu.Shipping!)" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15">
+			<item Text="(!admin.menu.ShippingMethods!)" NavigateUrl="shippingmethods.aspx" />
+			<item Text="(!admin.menu.ShippingRates!)" NavigateUrl="shipping.aspx" />
+			<item Text="(!admin.menu.ShippingFedExMeter!)" NavigateUrl="fedexmeterrequest.aspx" />
+			<item Text="(!admin.menu.Shipwire!)" NavigateUrl="shipwire.aspx" />
+		</item>
+		<item Text="(!admin.menu.Taxes!)" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15">
+			<item Text="(!admin.menu.TaxClass!)" NavigateUrl="taxClass.aspx" />
+			<item Text="(!admin.menu.States!)" NavigateUrl="states.aspx" />
+			<item Text="(!admin.menu.Countries!)" NavigateUrl="countries.aspx" />
+			<item Text="(!admin.menu.TaxZip!)" NavigateUrl="taxzips.aspx" />
+		</item>
+		<item Text="(!admin.menu.MailingTest!)" NavigateUrl="mailingtest.aspx" />
+		<item Text="(!admin.menu.Localization!)" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15">
+			<item Text="(!admin.menu.StringResources!)" NavigateUrl="stringresource.aspx" />
+		</item>
+		<item Text="(!admin.menu.Maintenance!)" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15">
+			<item Text="(!admin.menu.MonthlyMaintenance!)" NavigateUrl="monthlymaintenance.aspx" />
+			<item Text="(!admin.menu.StoreWide!)" NavigateUrl="storewide.aspx" />
+			<item Text="(!admin.menu.ChangeEncryptKey!)" NavigateUrl="changeencryptkey.aspx" />
+			<item Text="(!admin.menu.ViewSecurityLog!)" NavigateUrl="securitylog.aspx" />
+		</item>		
+		<item Text="(!admin.menu.BadWord!)" NavigateUrl="badword.aspx"/>	
+		<!-- Deprecated functions.  These are included for compatibility with older versions only -->
+		<!--
+		<item Text="(!admin.menu.Skins!)" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15">
+			<item Text="(!admin.menu.SkinPreviews!)" NavigateUrl="skinpreview.aspx" />
+		</item>
+		<item Text="(!admin.menu.Images!)" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15">
+			<item Text="(!admin.menu.ImageUpload!)" NavigateUrl="uploadImages.aspx" />
+			<item Text="(!admin.menu.ImageGalleries!)" NavigateUrl="gallery.aspx" />
+		</item>
+		-->
+		<!-- Help Menu -->
+	</item>
+	<item Text="(!admin.menu.Help!)" LookID="TopItemLook">
+		<item Text="(!admin.menu.OnlineManual!)" NavigateUrl="http://manual.aspdotnetstorefront.com/" Target="_blank"/>
+		<item Text="(!admin.menu.About!)" NavigateUrl="about.aspx?debuglicense=true" />
+	</item>
+</SiteMap>

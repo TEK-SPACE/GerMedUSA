@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="f_css/style.css" type="text/css" charset="utf-8"/>
+    </head>
+
+    <body>
+        
+        <div class="button_wrap">
+            <a class="button_aRight" id="button_aRight"><span>Follow us on FaceBook</span></a>
+            <a class="button_bRight slidebttn" id="button_bRight" target="_blank" href="http://www.facebook.com/pages/GerMedUSA/101896609891056">F <span>B</span></a>
+        </div>
+        
+          <div class="button_wrap">
+            <a class="button_aRight" id="button_aRight"><span>Follow us on Twitter</span></a>
+            <a class="button_bRight slidebttn" id="button_bRight" target="_blank" href="http://twitter.com/germedusa">Tw<span>ee</span>ts</a>
+        </div>
+        
+          <div class="button_wrap">
+            <a class="button_aRight" id="button_aRight"><span>Follow us on YouTube</span></a>
+            <a class="button_bRight slidebttn" id="button_bRight" target="_blank" href="http://www.youtube.com/germedusa">Y <span>T</span></a>
+        </div>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('.slidebttn').hover(
+					function () {
+						var $this 		= $(this);
+						var $slidelem 	= $this.prev();
+						$slidelem.stop().animate({'width':'215px'},300);
+						$slidelem.find('span').stop(true,true).fadeIn();
+						$this.addClass('button_c');
+					},
+					function () {
+						var $this 		= $(this);
+						var $slidelem 	= $this.prev();
+						$slidelem.stop().animate({'width':'70px'},200);
+						$slidelem.find('span').stop(true,true).fadeOut();
+						$this.removeClass('button_c');
+					}
+				);
+            });
+        </script>
+    </body>
+</html>

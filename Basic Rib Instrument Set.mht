@@ -1,0 +1,475 @@
+MIME-Version: 1.0
+X-Document-Type: Worksheet
+Content-Location: file:///C:/2353D914/BasicRibInstrumentSet.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="windows-1252"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+2">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 14">
+<link rel=3DFile-List href=3D"BasicRibInstrumentSet_files/filelist.xml">
+<style id=3D"Basic Rib Instrument Set.html_28186_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.xl1528186
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6528186
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	background:#C00000;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl6628186
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	background:#CCC0DA;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl6728186
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:8.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	background:#CCC0DA;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl6828186
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6928186
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7028186
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00";
+	text-align:general;
+	vertical-align:bottom;
+	background:#CCC0DA;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl7128186
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00";
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7228186
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00";
+	text-align:right;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7328186
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00";
+	text-align:general;
+	vertical-align:bottom;
+	background:#C00000;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl7428186
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:italic;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00";
+	text-align:general;
+	vertical-align:bottom;
+	background:#C00000;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl7528186
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00";
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7628186
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:italic;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00";
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+-->
+</style>
+</head>
+
+<body>
+<!--[if !excel]>&nbsp;&nbsp;<![endif]-->
+<!--The following information was generated by Microsoft Excel's Publish as=
+ Web
+Page wizard.-->
+<!--If the same item is republished from Excel, all information between the=
+ DIV
+tags will be replaced.-->
+<!----------------------------->
+<!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
+<!----------------------------->
+
+<div id=3D"Basic Rib Instrument Set.html_28186" align=3Dcenter
+x:publishsource=3D"Excel">
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D590 style=3D'bord=
+er-collapse:
+ collapse;table-layout:fixed;width:443pt'>
+ <col width=3D64 span=3D2 style=3D'width:48pt'>
+ <col width=3D330 style=3D'mso-width-source:userset;mso-width-alt:12068;wid=
+th:248pt'>
+ <col class=3Dxl7528186 width=3D64 style=3D'width:48pt'>
+ <col class=3Dxl7628186 width=3D68 style=3D'mso-width-source:userset;mso-wi=
+dth-alt:
+ 2486;width:51pt'>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6628186 width=3D64 style=3D'height:12.75pt;widt=
+h:48pt'>&nbsp;</td>
+  <td class=3Dxl6628186 width=3D64 style=3D'width:48pt'>&nbsp;</td>
+  <td class=3Dxl6728186 width=3D330 style=3D'width:248pt'>BASIC RIB INSTRUM=
+ENTS<span
+  style=3D'mso-spacerun:yes'> </span></td>
+  <td class=3Dxl7028186 width=3D64 style=3D'width:48pt'>&nbsp;</td>
+  <td class=3Dxl7028186 width=3D68 style=3D'width:51pt'>&nbsp;</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'></td>
+  <td class=3Dxl6828186></td>
+  <td class=3Dxl6828186></td>
+  <td class=3Dxl7128186></td>
+  <td class=3Dxl7128186></td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6928186 style=3D'height:12.75pt'>Item#</td>
+  <td class=3Dxl6928186>Quantity<span style=3D'mso-spacerun:yes'> </span></=
+td>
+  <td class=3Dxl6828186>Description<span style=3D'mso-spacerun:yes'> </span=
+></td>
+  <td class=3Dxl7128186>Reg.price</td>
+  <td class=3Dxl7128186>Reg. Ext</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'></td>
+  <td class=3Dxl6828186></td>
+  <td class=3Dxl6828186></td>
+  <td class=3Dxl7128186></td>
+  <td class=3Dxl7128186></td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'>G17-133</td>
+  <td class=3Dxl6928186>1</td>
+  <td class=3Dxl6828186>DeBakey Needle Holder 10 1/2 (26.7cm), TC Insert</t=
+d>
+  <td class=3Dxl7228186>$155.00</td>
+  <td class=3Dxl7228186>$155.00</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'>G11-154</td>
+  <td class=3Dxl6928186>6</td>
+  <td class=3Dxl6828186>Allis Tissue Forceps 10&quot; (25cm)</td>
+  <td class=3Dxl7228186>$70.95</td>
+  <td class=3Dxl7228186>$425.70</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'>G90-1602</td>
+  <td class=3Dxl6928186>2</td>
+  <td class=3Dxl6828186>Debakey Multipurpose Clamp 8 1/2&quot; (21cm), 5cm =
+jaws</td>
+  <td class=3Dxl7228186>$199.95</td>
+  <td class=3Dxl7228186>$399.90</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'>G90-0252</td>
+  <td class=3Dxl6928186>1</td>
+  <td class=3Dxl6828186>Doyen Rib elevator and Raspatory , right<span
+  style=3D'mso-spacerun:yes'> </span></td>
+  <td class=3Dxl7228186>$59.95</td>
+  <td class=3Dxl7228186>$59.95</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'>G90-0254</td>
+  <td class=3Dxl6928186>1</td>
+  <td class=3Dxl6828186>Doyen Rib elevator and Raspatory,left<span
+  style=3D'mso-spacerun:yes'> </span></td>
+  <td class=3Dxl7228186>$59.95</td>
+  <td class=3Dxl7228186>$59.95</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'>G90-2514</td>
+  <td class=3Dxl6928186>1</td>
+  <td class=3Dxl6828186>Matson-Alexander Periosteotome 8 3/4&quot;(22cm)</t=
+d>
+  <td class=3Dxl7228186>$139.95</td>
+  <td class=3Dxl7228186>$139.95</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'>G90-2518</td>
+  <td class=3Dxl6928186>1</td>
+  <td class=3Dxl6828186>Matson Rib Elevator and Stripper 8 3/4&quot;(22cm)<=
+/td>
+  <td class=3Dxl7228186>$89.25</td>
+  <td class=3Dxl7228186>$89.25</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'>G90-2542</td>
+  <td class=3Dxl6928186>1</td>
+  <td class=3Dxl6828186>Burford-Finnochietto Rib Spreader, w/2 pr.blades</t=
+d>
+  <td class=3Dxl7228186>$699.90</td>
+  <td class=3Dxl7228186>$699.90</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'>G90-2520</td>
+  <td class=3Dxl6928186>1</td>
+  <td class=3Dxl6828186>Bailey Rib Contractor<span
+  style=3D'mso-spacerun:yes'> </span></td>
+  <td class=3Dxl7228186>$299.95</td>
+  <td class=3Dxl7228186>$299.95</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'>G90-2530</td>
+  <td class=3Dxl6928186>1</td>
+  <td class=3Dxl6828186>Allison Lung Retractor 12 3/4&quot; (32cm)</td>
+  <td class=3Dxl7228186>$129.60</td>
+  <td class=3Dxl7228186>$129.60</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'>G90-2535</td>
+  <td class=3Dxl6928186>1</td>
+  <td class=3Dxl6828186>Bethune Rib Shears 13 1/2&quot; (34.9cm)</td>
+  <td class=3Dxl7228186>$359.95</td>
+  <td class=3Dxl7228186>$359.95</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'>G24-29</td>
+  <td class=3Dxl6928186>1</td>
+  <td class=3Dxl6828186>Stille-Horsley Bone Cutting Forceps 10 1/2&quot;(26=
+.7cm)</td>
+  <td class=3Dxl7228186>$327.06</td>
+  <td class=3Dxl7228186>$327.06</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'>G90-2580</td>
+  <td class=3Dxl6928186>1</td>
+  <td class=3Dxl6828186>Sauerbruch Rongeur 12&quot; (30.5cm),square jaws 17=
+mm</td>
+  <td class=3Dxl7228186>$629.95</td>
+  <td class=3Dxl7228186>$629.95</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'>G19-202</td>
+  <td class=3Dxl6928186>1</td>
+  <td class=3Dxl6828186>Leksell Rongeur 9 1/2&quot; (24cm) 3mm,bite</td>
+  <td class=3Dxl7228186>$329.95</td>
+  <td class=3Dxl7228186>$329.95</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'>G90-2554</td>
+  <td class=3Dxl6928186>2</td>
+  <td class=3Dxl6828186>Duval Tissue Grasping Forceps 9&quot; ,1&quot;,wide=
+</td>
+  <td class=3Dxl7228186>$189.95</td>
+  <td class=3Dxl7228186>$379.90</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'></td>
+  <td class=3Dxl6828186></td>
+  <td class=3Dxl6828186></td>
+  <td class=3Dxl7128186></td>
+  <td class=3Dxl7128186></td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl6828186 style=3D'height:12.75pt'></td>
+  <td class=3Dxl6828186></td>
+  <td class=3Dxl6828186></td>
+  <td class=3Dxl7128186></td>
+  <td class=3Dxl7228186>$3,588.77</td>
+ </tr>
+ <tr height=3D14 style=3D'mso-height-source:userset;height:10.5pt'>
+  <td height=3D14 class=3Dxl6528186 style=3D'height:10.5pt'>&nbsp;</td>
+  <td class=3Dxl6528186>&nbsp;</td>
+  <td class=3Dxl6528186>&nbsp;</td>
+  <td class=3Dxl7328186>&nbsp;</td>
+  <td class=3Dxl7428186>&nbsp;</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=3D0 style=3D'display:none'>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D330 style=3D'width:248pt'></td>
+  <td width=3D64 style=3D'width:48pt'></td>
+  <td width=3D68 style=3D'width:51pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
+<!----------------------------->
+</body>
+
+</html>

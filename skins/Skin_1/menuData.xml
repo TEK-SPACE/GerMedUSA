@@ -1,0 +1,44 @@
+<SiteMap>
+		<item Text="(!menu.Home!)" NavigateUrl="default.aspx" LookId="TopItemLook"/>
+		<!--<item Text="(!menu.Categories!)" LookId="TopItemLook" />-->
+		<!--<item Text="(!menu.Sections!)" LookId="TopItemLook" />-->
+	<!--	<item Text="(!menu.Manufacturers!)" NavigateUrl="manufacturers.aspx" LookId="TopItemLook" />-->
+		<item Text="(!menu.CustomerService!)" LookId="TopItemLook">
+				<item Text="(!menu.YourAccount!)" NavigateUrl="account.aspx" LookId="DefaultItemLook"/>
+				<item Text="(!menu.OrderHistory!)" NavigateUrl="account.aspx" LookId="DefaultItemLook"/>
+				<item Text="(!menu.FAQs!)" NavigateUrl="t-faq.aspx" LookId="DefaultItemLook"/>
+				<item Text="Cleaning &amp; Maintenance" NavigateUrl="t-Cleaningmaintenance.aspx" LookId="DefaultItemLook"/>				
+				
+				<item Text="(!menu.Shipping!)" NavigateUrl="t-shipping.aspx" LookId="DefaultItemLook"/>
+				
+<!--				<item Text="(!menu.PolicyPrivacy!)" NavigateUrl="t-privacy.aspx" LookId="DefaultItemLook"/>
+				<item Text="(!menu.PolicySecurity!)" NavigateUrl="t-security.aspx" LookId="DefaultItemLook"/>-->
+			
+				
+		</item>
+		<item Text="GerMedUSA" LookId="TopItemLook">
+		<item Text="(!menu.about!)" NavigateUrl="t-about.aspx" LookId="DefaultItemLook"/>
+		<item Text="(!menu.mission!)" NavigateUrl="t-mission.aspx" LookId="DefaultItemLook"/>		
+		<item Text="(!menu.PolicyReturns!)" NavigateUrl="t-returns.aspx" LookId="DefaultItemLook"/>
+		<item Text="(!menu.repairs!)" NavigateUrl="t-Repairs.aspx" LookId="DefaultItemLook"/>
+		<item Text="New Account" NavigateUrl="download/DealerApplication.pdf" LookId="DefaultItemLook"/>	
+		<item Text="CD Catalog" NavigateUrl="requestcatalog.aspx" LookId="DefaultItemLook"/>
+		<item Text="(!menu.Contact!)" NavigateUrl="t-contact.aspx" LookId="DefaultItemLook"/>
+		
+		
+		</item>
+		
+		<item Text="Servicio al cliente" LookId="TopItemLook">
+				<item Text="Informacion de Cuenta" NavigateUrl="account.aspx" LookId="DefaultItemLook"/>
+				<item Text="Estatus de Orden/Historia" NavigateUrl="account.aspx" LookId="DefaultItemLook"/>
+				<item Text="Sobre Nosotros" NavigateUrl="t-spanishabout.aspx" LookId="DefaultItemLook"/>
+				<item Text="Preguntas Frecuentemente Pedidas" NavigateUrl="t-spanishfaq.aspx" LookId="DefaultItemLook"/>
+				<item Text="Limpieza y Mantenimiento de los Instrumentos" NavigateUrl="t-spanishclean.aspx" LookId="DefaultItemLook"/>
+				<item Text="Reparacion" NavigateUrl="t-spanishrepairs.aspx" LookId="DefaultItemLook"/>
+				<item Text="Garantía" NavigateUrl="t-spanishwarranty.aspx" LookId="DefaultItemLook"/>
+				<item Text="Contactarnos" NavigateUrl="t-contact.aspx" LookId="DefaultItemLook"/>
+		</item>
+		<item Text="Downloads" NavigateUrl="t-download.aspx" LookId="TopItemLook"/>
+		<item Text="Trade Shows"  NavigateUrl="t-TradeShows.aspx" LookId="TopItemLook" />
+			<item Text="(!menu.Contact!)" NavigateUrl="t-contact.aspx" LookId="TopItemLook"/>
+</SiteMap>

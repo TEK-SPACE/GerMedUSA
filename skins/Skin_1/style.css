@@ -1,0 +1,2540 @@
+body
+{
+    margin: 0;
+	padding: 0px 0;
+    text-align: center;
+    background-color:#97e1fa;
+    font-size: 100%;
+    font-family: Tahoma, Verdana, sans-serif;
+    overflow: -moz-scrollbars-vertical;
+	background-image:url(images/g.jpg);
+	background-repeat:repeat;
+/*	background-image:url(images/full.jpg);
+	background-repeat:repeat-y;
+	background-position:center 10px;*/
+}
+
+
+.leftl{
+	/*widows:89px;*/
+	background-image:url(images/left.png);
+	background-repeat:repeat-y;
+	/*border-image: url(images/left.png) 27 27 27 27 round round;*/
+
+}
+
+#rbgxList h4{
+	color:#9F0;
+	font-weight:bold;
+}
+
+#rbgxList{
+	text-align:left;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;  
+	font-size:14px;
+	
+}
+#rbgxList a{
+	text-decoration:none;
+	color:#069;
+}
+#rbgxList a:hover{
+	text-decoration:none;
+	color:#C30;
+}
+
+#rbgxPList{
+	padding-left:10px;
+	text-align:left;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;  
+	font-size:14px;
+	
+}
+#rbgxPList a{
+	text-decoration:none;
+	color:#069;
+}
+#rbgxPList a:hover{
+	text-decoration:none;
+	color:#C30;
+}
+
+p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height: 1.5em;
+	text-align:justify;
+}
+  .more {
+      display: none;
+      border-top: 1px solid #666;
+      border-bottom: 1px solid #666;
+	  padding-top:5px;
+	  line-height: 1.5em;
+	  text-align:justify;
+	  }
+.showLink
+	  {
+		   text-align:left;
+	  }
+	  
+   a.showLink, a.hideLink {
+      text-decoration: none;
+       color: #36f;
+      padding-left: 8px;
+      background: transparent url(down.gif) no-repeat left; }
+   a.hideLink {
+      background: transparent url(up.gif) no-repeat left; }
+   a.showLink:hover, a.hideLink:hover {
+      border-bottom: 1px dotted #36f; }
+ .tilldate{
+	 color:#C00;
+	 font-weight:bold;
+	 text-align:right;
+ }
+
+
+
+.glossymenu{
+list-style-type: none;
+margin: 0px 0;
+padding: 0;
+width: 187px;
+border: 1px solid #9A9A9A;
+border-bottom-width: 0;
+/* remove this later if you use this some where
+margin-left:-20px;
+margin-top:-5px;
+till Here*/
+}
+
+.ptitle{
+	font:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	border-bottom:#333 thick solid;
+	text-transform:capitalize;
+	font-weight:bold;
+	color:#000;
+}
+
+.pname{
+	font-family:sans-serif;
+	font-size:1.3em;
+	font-stretch:expanded;
+	font-weight:bold;
+	/*text-transform:uppercase;*/
+	color:#ae361a;
+}
+.hline{
+	height:5px;
+	border-bottom:#036 double thick;
+	border-width:100%;
+}
+.dstyle{
+	font:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height:1.5em;
+	text-align:justify;
+	padding-right:10px;
+	color:#333333;
+}
+
+.glossymenu li a{
+background: white url(images/glossyback.gif) repeat-x bottom left;
+font: bold 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: white;
+display: block;
+width: auto;
+padding: 3px 0;
+padding-left: 10px;
+text-decoration: none;
+
+}
+
+
+* html .glossymenu li a{ /*IE only. Actual menu width minus left padding of A element (10px) */
+width: 187px;
+}
+
+.glossymenu li a:visited, .glossymenu li a:active{
+color: white;
+}
+
+.glossymenu li a:hover{
+background-image: url(images/glossyback2.gif);
+}
+
+.blueblock{
+width: 188px;
+border-right: 1px solid #000;
+padding: 0 0 1em 0;
+margin-bottom: 1em;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 95%;
+background-color: #90bade;
+color: #333;
+}
+
+* html .blueblock{ /*IE 6 only */
+w\idth: 188px; /*Box model bug: 180px minus all left and right paddings for #blueblock */
+}
+
+.blueblock ul{
+list-style: none;
+margin: 0;
+padding: 0;
+border: none;
+}
+
+.blueblock li {
+border-bottom: 1px solid #90bade;
+margin: 0;
+}
+
+.blueblock li a{
+display: block;
+padding: 5px 5px 5px 8px;
+border-left: 10px solid #1958b7;
+border-right: 10px solid #508fc4;
+background-color: #2175bc;
+color: #fff;
+text-decoration: none;
+width: 100%;
+}
+
+html>body .blueblock li a{ /*Non IE6 width*/
+width: auto;
+}
+.blueblock li a:hover {
+color: #fff;
+text-decoration:underline;
+}
+.blueblock li a:hover a:visited a:active{
+border-left: 10px solid #1c64d1;
+border-right: 10px solid #5ba3e0;
+background-color: #2586d7;
+color: #fff;
+}
+*html .blueblock li a:visited {
+color: #fff;
+text-decoration:none;
+}
+*html .blueblock li a:hover {
+color: #fff;
+text-decoration:underline;
+}
+
+table
+{
+    font-size: 1em !important;
+    font-family: Tahoma, Verdana, sans-serif;
+    border: none;
+}
+table input
+{
+    font-size:1em;
+}
+table select
+{
+    font-size:1em;
+}
+
+form
+{
+    margin: 0;
+    padding: 0;
+}
+#content input, #content select
+{
+    font-size: 1em;
+}
+img
+{
+    border: none;
+}
+a:active, a:link, a:visited
+{
+    color: #112837;
+    text-decoration: underline;
+}
+a:hover
+{
+    color: #4776BD;
+}
+fieldset, form
+{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+h3
+{
+    margin: 0 0 0.5em 0;
+    padding-top: 0;
+    color: #6B6F83;
+    font-size: 1.25em;
+    text-align: left;
+    border-bottom: solid 2px #4776BD;
+}
+/* Hides from IE-mac \*/
+* html .clear, * html .floatform
+{
+    height: 1%;
+}
+.clear, .floatform
+{
+    display: block;
+}
+/* End hide from IE-mac */
+
+ul.tame, ul.tame li
+{
+    margin: 0;
+    padding: 0;
+    display: list-item;
+    list-style: none;
+}
+ul.tame li
+{
+    line-height: 1.25em;
+}
+.tameHoriz, ul.tameHoriz li
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1em;
+	
+}
+
+ul.tameHoriz li
+{
+    display: inline;
+    font-size: 1em;
+	
+}
+
+.faddress{
+	color:#666;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-bottom:10px;
+}
+
+.faddress a{
+	text-decoration:none;
+	font-weight:bold;
+}
+.footerh, ul.footerh li
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.1em;
+}
+ul.footerh li
+{
+    display: inline;
+    font-size: 1em;
+}
+
+
+
+br.cl
+{
+    clear: both;
+}
+
+
+/*PAGE SETUP*/
+#userName
+{
+	
+}
+#userName a
+{
+	color:#0CF;
+}
+#loginText
+{
+    margin-left: 1em;
+	color:#FFFFFF;
+	
+}
+#loginText a
+{
+    margin-left: 1.2em;
+	color:#FFFFFF;
+	text-decoration:none;
+	font:Tahoma, Geneva, sans-serif;
+}
+
+#loginText a:hover
+{
+    margin-left: 1.2em;
+	text-decoration:none;
+	color:#F90;
+	font:Tahoma, Geneva, sans-serif;
+}
+
+textarea#OrderNotes
+{
+    width: 99% !important;
+}
+
+#wrapper
+{
+    width: 907px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    font-size: 0.71em !important;
+	background-image:url(images/back_new.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	background-color:#FFF;
+	border-left:#333 thick solid;
+	border-right:#333 thick solid;
+	height:auto;
+}
+/**html #wrapper{
+	margin-left:4px;
+	border-left:#333 thick solid;
+	border-right:#333 thick solid;
+}*/
+
+/*html #bodyWrapper{
+	width:907px;
+	margin-left:-5px;	
+	border-left:#333 thick solid;
+	border-right:#333 thick solid;
+}*/
+
+
+
+#header
+{
+  
+    width: 907px;
+    /*line-height: 3em;*/
+    text-align: right;
+    /*margin-bottom: 3px;*/
+    float: left;
+	height:25px;
+	
+
+/*	background-color:#FFF;*/
+}
+#bodyWrapper
+{
+    margin-bottom:0px;
+	padding-bottom:10px;
+    height: auto;
+    width: 905px;
+ 
+	background:#FFF;
+	/*border-left:#333 thick solid;
+	border-right:#333 thick solid;*/
+	
+
+}
+/*#bodyWrapper
+{
+ width: 907px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+   
+	background-color:#FFF;
+	border-left:#333 thick solid;
+	border-right:#333 thick solid;
+	height:auto;
+}
+
+html>body bodyWrapper
+{
+wid\th: 922px;
+}*/
+#leftWrap
+{
+    width: 190px;
+    float: left;
+    clear: both;
+	padding-left:3px;
+}
+
+#content
+{
+    margin: 0 0 1em 10px;
+    width: 690px;
+    height: auto;
+    background-color: #fff;
+    float: right;
+    clear: none;
+	padding-right:10px;
+	
+	 /*padding-right:10px; */font:Arial, Helvetica, sans-serif; 
+	 color:#333; 
+	 font-size:14px; 
+	 font-stretch:extra-expanded;
+	  text-align:justify;
+	 line-height: 1.5em;
+}
+#welcontent
+{
+    margin: 0 0 1em 0px;
+    width: 905px;
+    height: auto;
+    background-color: #fff;
+    float: left;
+    clear: none;
+	/*padding-right:5px;*/
+		 /*padding-right:10px; */font:Arial, Helvetica, sans-serif; 
+	 color:#333; 
+	 font-size:14px; 
+	 font-stretch:extra-expanded;
+	 text-align:justify;
+	 line-height: 1.5em;
+	/*font-family:Verdana, Geneva, sans-serif;
+	font-size: 12px;*/
+	
+	
+	
+}
+#footer
+{
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	background-color:#eaf6fc;
+/*    background-color: #F6F5F5;*/
+    text-align: center;
+	border-top:#000 solid thin;
+}
+#breadcrumb
+{
+    float: left;
+    color: #444;
+	padding-left:10px;
+	width:900px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:10px;
+	display: inline-table;
+	
+}
+#breadcrumb a
+{
+	text-decoration:none;
+}
+#miniCart
+{
+    float: right;
+}
+#ML
+{
+    width: 650px;
+    font-size: 0.85em;
+}
+#ML, #ML div
+{
+    float: right;
+    vertical-align: middle;
+}
+#ML div select
+{
+    font-size: 0.88em;
+    margin: 2px 0.5em 4px 0;
+    vertical-align: middle;
+}
+
+#breadcrumb, #minicart, #ML
+{
+    height: 2em;
+    line-height: 1.5em;
+    color: #444;
+}
+#breadcrumb a, #miniCart a
+{
+    color: #4776BD;
+}
+input.submit
+{
+    border: 1px double #999;
+    border-top-color: #ccc;
+    border-left-color: #ccc;
+    padding: 0.1em;
+    margin: 0;
+    background-color: #fff;
+    background-image: url(images/background-form-element.png);
+    color: #333;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Tahoma,Verdana,Helvetica,Arial,sans-serif;
+}
+input.submit:active
+{
+    border: 1px double #ccc;
+    border-top-color: #999;
+    border-left-color: #999;
+}
+
+
+/*HEADER ELEMENTS*/
+
+
+#logo
+{
+    float: left;
+    width: 362px;
+    height: 100px;
+    background: url(images/logo.png) no-repeat center center;
+    margin-right: 10px;
+    display: block;
+	
+	
+	
+}
+
+#logo b
+{
+    display: none;
+}
+
+
+a.wishlist
+{
+    background: url(images/icons/wishlist.gif) no-repeat left bottom;
+	color:#0CF;
+	font-size:12px;
+	text-decoration:none;
+}
+a.cart
+{
+    background: url(images/icons/cart.gif) no-repeat left bottom;
+	color:#0CF;
+	font-size:12px;
+	text-decoration:none;
+}
+a.account
+{
+    background: url(images/icons/your-account.gif) no-repeat left bottom;
+
+}
+
+#nnmenu 
+{
+	/*position:relative;*/
+	right:5px;
+/*	top:10px;*/
+	font:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	margin-top: 10px;
+}
+.nmenu 
+{
+	background-image:url(images/bmenu.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	bottom:0px;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding:8px 15px 4px 20px;
+}
+#nnmenu a
+{
+	text-decoration:none;
+}
+#nnmenu a:hover
+{
+	background-image:url(images/menu.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	color:#000;
+}
+
+.nmenu a
+{
+	text-decoration:none;
+}
+.account
+{
+	position:absolute;
+	bottom:0px;
+	
+}
+a.faq
+{
+    background: url(images/icons/faq.gif) no-repeat left bottom;
+}
+a.contact
+{
+    background: url(images/icons/contact-us.gif) no-repeat left bottom;
+	color:#0CF;
+	font-size:12px;
+	text-decoration:none;
+}
+a.wishlist, a.cart, a.faq, a.contact, a.account
+{
+    padding: 3px 15px 3px 20px;
+    position: relative;
+	color:#0CF;
+	font-size:12px;
+	text-decoration:none;
+}
+#header u
+{
+    color: #000;
+    text-decoration: none;
+}
+#login
+{
+    margin: 0;
+    padding: 10;
+    float: right;
+    font-size: 1.5em;
+    padding-right: 15px;
+}
+
+/* HEADER HORIZ NAV*/
+
+#horizNav
+{
+    text-align: -moz-center;
+	text-align:-webkit-center;
+	#text-align:center;
+    width: 907px;
+    margin: 0;
+    clear: left;
+    line-height: 35px;
+    height: 35px;
+    background: #699EDC url(images/nav-bg.gif) repeat;
+    border-top: solid 1px #888;
+    border-bottom: solid 1px #888;
+    position: relative;
+    z-index: 1;
+}
+* html #horizNav
+{
+	width: 909px;
+		margin-left:0px;
+}
+#horizNav a:active, #horizNav a:link, #horizNav a:visited
+{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: Tahoma,Verdana,sans-serif;
+}
+
+#nav
+{
+    margin: 0;
+    padding: 0;
+    height: 35px;
+    list-style: none;
+    white-space: nowrap;
+}
+#nav a
+{
+    margin: 0;
+    padding: 0.9em 15px;
+    background: url(images/tab-sep.gif) no-repeat center left;
+}
+#nav a:hover, #nav #firstTab a:hover
+{
+    background: url(images/nav-bg-hover.gif) repeat-x center right;
+}
+
+#nav li
+{
+    float: left;
+    position: relative;
+    margin: 0;
+    background: #4776BD url(images/nav-bg.gif) center left repeat;
+}
+
+#nav ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: solid 1px transparent;
+    text-align: left;
+}
+#nav li ul
+{
+    width: 10em;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    color: #4776BD;
+}
+#nav li li
+{
+    font-size: 0.8em;
+    line-height: 2em;
+    margin: 0;
+    background: #F8F8F8 none;
+    width: 100%;
+    border-bottom: solid 1px #CECECE;
+}
+#nav li li a
+{
+    display: block;
+    margin: 0;
+    background: none;
+    padding: 0 1em;
+    color: #4776BD !important;
+}
+#nav li li a:hover, #nav li li:hover
+{
+    background: #DCDFE2 none !important;
+}
+#nav li > ul
+{
+    top: auto;
+    left: auto;
+}
+#nav li:hover ul, #nav li.over ul
+{
+    display: block;
+}
+#nav #firstTab
+{
+    background-image: none !important;
+    margin: 0;
+}
+/* HORIZ NAV SUB */
+
+#horizNav2
+{
+    clear: both;
+    background: #EFEEEE url(images/sub-nav-fade.gif) repeat-x left center;
+    width: 907px;
+    height: 3em;
+    line-height: 3em;
+    color: #444;
+    padding: 0;
+    margin-top: 0px;
+    border-bottom: solid 1px #F0EFEF;
+}
+* html #horizNav2
+{
+	width: 909px;
+		margin-left:0px;
+}
+#horizNav2 a:active, #horizNav2 a:link, #horizNav2 a:visited
+{
+    color: #444;
+    text-decoration: underline;
+}
+#horizNav2 a:hover
+{
+    color: #444;
+}
+#horizNav2 span
+{
+    color: #444;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#horizNav2 form label
+{
+    color: #444;
+}
+#horizNav2 form
+{
+    float: left;
+    padding: 0 2em 0 1em;
+    width: auto;
+}
+#horizNav2 fieldset
+{
+    width: 210px;
+}
+
+#horizNav2 ul
+{
+    float: left;
+    padding: 0 1em;
+}
+.pipe
+{
+    padding: 0 1em;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+img.liveHelp
+{
+    float: right;
+    padding: 0 1em;
+    vertical-align: middle;
+    margin-top: 4px;
+	margin-right:5px;
+}
+
+.searchBox
+{
+    height: 1.5em;
+    width: 10em;
+    border: 1px solid #A7A6AA;
+    margin-top: 0.7em;
+}
+
+#searchresult{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:9px;
+}
+#searchresult td{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:9px;
+}
+
+
+
+
+/* LEFT NAV */
+
+.leftNav
+{
+    border: 1px solid #ddd;
+    border-top: 1px solid #F0EFEF;
+    padding: 5px;
+    margin-bottom: 5px;
+    background: #D7D4CD url(images/left-nav-bg.gif) repeat top center;
+}
+.navHeader
+{
+    background: url(images/nav-header-bg.gif) no-repeat left bottom;
+    width: 190px;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 5px;
+    color: #4776BD;
+    font-weight: bold;
+}
+.catMark
+{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #aaa;
+    letter-spacing: -2px;
+}
+
+/* FOOTER ELEMENTS */
+#footer ul
+{
+    list-style: none;
+    color: #444;
+}
+
+div#footerWrap
+{
+    width: 900px;
+    height: auto;
+    margin: 0;
+    padding: 5px 0;
+	border: 1px solid #fff;
+/*    border: 1px dashed #ddd;*/
+}
+.footerList
+{
+    text-align: left;
+    width: 24%;
+    height: 100%;
+/*    display: inline;*/
+    float: left;
+	border-right: 1px solid #fff;
+/*    border-right: 1px dashed #ddd;*/
+}
+.topList li
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 0.5em 0;
+    list-style: none;
+}
+
+/* CLOSER */
+#closer
+{
+    font-size: 0.7em;
+    color: #444;
+    margin: 1em 0;
+}
+#closer a
+{
+    color: #444;
+}
+
+
+/* PRODUCT PAGE */
+
+#redandbluepname{
+	color:#06C;
+	font-size:14px;
+}
+#redandbluepname a{
+	color:#c30;
+	font-size:14px;
+}
+.rbgshipping{
+	font-weight:bold;
+}
+.ProductNameText
+{
+font-size: 14px;
+font-family: Calibre;
+color:#1d4181;
+font-weight:bold;
+}
+.ProductNameText a
+{
+font-size: 16px;
+font-family: "Century Gothic";
+color:#1d4181;
+font-stretch:expanded;
+text-decoration:none;
+/*background-color:#FF9;
+padding-left:10px;
+padding-right:10px;*/
+font-weight:bold;
+}
+.ProductNameText a:hover
+{
+	color:#c30;
+}
+.ProductDescription{
+font-size: 1.2em;
+font-family: "Century Gothic";
+color:#3f3f3f;
+text-align:justify;
+}
+.ProductOptions{
+	/*font-size: 12px;*/
+font-family: "Century Gothic";
+color:#222222;
+text-align:justify;
+}
+.redandbluecat a{
+	color:#06C;
+	font-size:14px;
+	font-family:calibre;
+	text-decoration:none;
+}
+
+.redandbluecat a:hover{
+	color:#c30;
+}
+#productTopBox
+{
+    text-align: right;
+    padding: 1.5em 10px 10px 10px;
+}
+h2
+{
+    margin: 0;
+    font-size: 1.4em;
+    text-align: left;
+    border-bottom: solid 2px #4776BD;
+}
+
+#sku
+{
+    display: block;
+	font-weight:bold;
+}
+.tsku
+{
+	/*font-size: 12px;*/
+font-family: "Century Gothic";
+color:#222222;
+text-align:justify;
+ 	font-weight:bold;
+}
+#price
+{
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+}
+.SalePrice
+{
+    color: #cc0000 !important;
+}
+#description, #quoteBox, #otherinfo
+{
+    margin: 10px;
+}
+.prodHeader
+{
+    width: 99.5%;
+    height: 1.2em;
+    color: #6B6F83;
+    clear: both;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 3px 5px;
+    border-bottom: solid 2px #4776BD;
+}
+#quoteBox input, #quoteBox select
+{
+    font-size: 1em;
+    display: block;
+    margin: 5px 0;
+}
+#mainImg
+{
+    margin: 0 10px 10px 0;
+    float: left;
+}
+.AddToCartButton, .AddToWishButton, #Quantity
+{
+    font-size: 1em;
+}
+.addToForm
+{
+    margin-top: 1em;
+}
+#shipQuoteLabels
+{
+    width: 10em;
+    height: auto;
+    float: left;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+}
+#shipQuoteLabels label
+{
+    display: block;
+    line-height: 2em;
+}
+#ShipQuote, #yourQuote
+{
+    font-weight: bold;
+    line-height: 2em;
+}
+#shipQuoteWrapper
+{
+    height: auto;
+    float: left;
+}
+#navArrows
+{
+    float: right;
+}
+
+/* ENTITY LANDING PAGE */
+
+.topFeature
+{
+    float: left;
+    width: 24.8%;
+    height: auto;
+    text-align: left;
+}
+
+.topFeatureP
+{
+    margin: 0;
+    padding: 0.5em;
+    text-align: left;
+}
+.topFeature p
+{
+    margin: 0;
+    text-align: left;
+}
+.topFeatureP img
+{
+    margin-bottom: 0.5em;
+}
+.topPrice, .topName
+{
+    font-weight: bold;
+    text-align: left;
+}
+
+#entitySep
+{
+    clear: both;
+    margin-top: 1em;
+}
+.btmP
+{
+    clear: left;
+    border-bottom: 1px solid #C6C3BA;
+    float: left;
+    width: 683px;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+.btmP img
+{
+    float: left;
+    margin-right: 1em;
+}
+.btmP span
+{
+    display: block;
+}
+.btmName, .btmPrice, .btmSalePrice
+{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.btmDescription, .topDescription
+{
+    display: block;
+    padding-bottom: 1em !important;
+}
+.btmPrice
+{
+}
+.btmSalePrice
+{
+    color: #cc0000;
+}
+.btmInStock, .btmOutStock, .topInStock, .topOutStock
+{
+    display: inline !important;
+    font-weight: bold;
+    color: #4776BD;
+}
+.btmOutStock, .topOutStock
+{
+    color: #aaa;
+}
+#entityPageHeader p
+{
+    margin-top: 0;
+}
+#entityPageHeader img
+{
+    margin: 0 1em 0.5em 0;
+    float: right;
+}
+
+.entityCategory
+{
+    margin: 0 0 1em 0;
+    font-size: 1.1em;
+}
+
+/* OTHER SELECTORS */
+.MediumCell, .LightCell
+{
+    border: none;
+}
+
+.error
+{
+    font-size:1.25em;
+    font-weight:bold;
+    color:#ff0000;
+	line-height: 35px;
+}
+
+.errorLg
+{
+    color: Red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.SBProdName
+{
+    font-size: .7em;
+}
+.SBCatName
+{
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.PBCartFull
+{
+    font-size: .7em;
+    color: Blue;
+    font-weight: bold;
+}
+
+
+
+/* COMPONENT ART HORIZONTAL MENU */
+
+.TopMenuGroup
+{
+    border: solid 0px #000;
+    background-color: transparent;
+    line-height:35px;  
+}
+
+.MenuGroup
+{
+    border: solid 0px #000;
+    color: #000000;
+    font-size: 0.8em!important;
+    margin: 0;
+    background: #F8F8F8 none;
+}
+
+.MenuGroup td, .MenuGroupHover td, .MenuItemHover td, td.MenuItemHover
+{
+    color: #285a7a;
+	font-family:sans-serif;
+}
+*html .MenuGroup td, .MenuGroupHover td, .MenuItemHover td, td.MenuItemHover
+{
+    color: #285a7a;
+	font-family:verdana;
+	font-weight:700;
+/*	font-weight:bold;*/
+}
+
+.TopMenuItem, .TopMenuItemHover
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+	font-stretch:expanded;
+    cursor: hand;
+    cursor: pointer;
+    margin:0;
+    padding: 0 1em!important;
+    line-height: 35px;
+    vertical-align:middle;
+    background: url(images/tab-sep.gif) no-repeat top left;
+}
+.TopMenuItem
+{
+    background: url(images/tab-sep.gif) no-repeat top left;
+}
+
+
+/*leaf menu items*/
+.MenuItem, .MenuItemHover, .MenuItem td, .MenuItemHover td 
+{
+    
+    border: solid 0px white;
+    cursor: hand;
+    cursor: pointer;
+    margin: 0;
+    background: #F8F8F8 none;
+    width: 100%!important;
+	font-size:12px;
+	font-family: sans-serif;
+
+}
+.MenuItem a:visited, .MenuItem a:hover, .MenuItem a:active
+{
+color:#000000;
+}
+
+.MenuItemHover, .MenuItemHover td
+{
+	
+    background: #DCDFE2 none;  
+	font-size:12px;
+	font-family:sans-serif;
+}
+
+.ScrollItem
+{
+    background-color: red;
+    font-size: 0.8em;
+    border: solid 0px gray;
+    cursor: default;
+    text-align: center;
+
+}
+
+.ScrollItemH
+{
+    background-color: aqua;
+    color: orange;
+    font-size: 0.8em;
+    border: solid 0px gray;
+    cursor: default;
+    text-align: center;
+
+}
+
+.ScrollItemA
+{
+    background-color: Lime;
+    color: yellow;
+    font-size: 0.8em;
+    border: solid 0px gray;
+    cursor: default;
+    text-align: center;
+
+}
+/*
+-----------------------------------------------------------------------
+ Component Art Vertical Menu Style:
+-----------------------------------------------------------------------
+
+
+.VertTopMenuGroup
+{
+  border:solid 0px #003167;
+  background-color:transparent;
+}
+
+.VertMenuGroup
+{
+  border:solid 0px #003167;
+  background-color:transparent;
+}
+
+.VertTopMenuItem
+{
+  color:#FFFFFF;
+  font-size:11px;
+  cursor:hand;
+  cursor:pointer;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.VertTopMenuItem td {color:#FFFFFF;}
+.VertTopMenuItem td {color:#FFFFFF;}
+.VertTopMenuItem td {color:#FFFFFF;}
+td.VertTopMenuItem {color:#FFFFFF;}
+
+.VertTopMenuItemHover
+{
+  color:#444444;
+  background-color:#FEDF15;
+  font-size:11px;
+  cursor:hand;
+  cursor:pointer;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+td.VertMenuItem
+{
+  background-color:White;
+  color:#444444;
+  font-size:11px;
+  border: solid 0px white;
+  cursor:hand;
+  cursor:pointer;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+td.VertMenuItemHover
+{
+  background-color:#EEEEEE;
+  color:#285D9F;
+  font-size:11px;
+  border: solid 0px white;
+  cursor:hand;
+  cursor:pointer;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.VertMenuItem
+{
+  background-color:White;
+  color:#444444;
+  font-size:11px;
+  border: solid 0px white;
+  cursor:hand;
+  cursor:pointer;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.VertMenuItemHover
+{
+  background-color:#EEEEEE;
+  color:#285D9F;
+  font-size:11px;
+  border: solid 0px white;
+  cursor:hand;
+  cursor:pointer;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.VertScrollItem
+{
+  background-color:#FBFBFB; 
+  font-size:11px; 
+  border:solid 0px #FBFBFB; 
+  cursor:default;
+  text-align:center;
+}
+
+.VertScrollItemH
+{
+  background-color:silver; 
+  color:black; 
+  font-size:11px; 
+  border:solid 0px gray; 
+  cursor:default;
+  text-align:center;
+}
+
+.VertScrollItemA
+{
+  background-color: darkgray; 
+  color:black; 
+  font-size:11px; 
+  border:solid 0px gray; 
+  cursor:default;
+  text-align:center;
+}
+*/
+
+/*
+-----------------------------------------------------------------------
+ Component Art Tree Style:
+-----------------------------------------------------------------------
+
+
+.TreeView 
+{ 
+  background-color:transparent;
+  border: #919191 0px solid; 
+  padding-top:2px;
+  cursor: default; 
+  color: #FFFFFF;
+  cursor: hand;
+  cursor:pointer;
+}
+
+.TreeNode 
+{ 
+  font-size: 11px; 
+  color: #FFFFFF;
+  padding:0px;
+  padding-left: 3px; 
+  padding-right: 3px; 
+  cursor: hand; 
+  cursor:pointer;
+}
+
+.HoverTreeNode 
+{ 
+  color: #FFCC00;
+  font-size: 11px; 
+  padding:0px;
+  padding-left: 3px; 
+  padding-right: 3px; 
+  text-decoration: none; 
+  cursor: hand; 
+  cursor:pointer;
+}
+
+.SelectedTreeNode 
+{ 
+  font-size: 11px; 
+  padding:0px;
+  padding-left: 3px; 
+  padding-right: 3px; 
+  background-color: #a0a0a0; 
+  cursor: hand; 
+  cursor:pointer;
+}
+
+.NodeEdit 
+{
+  border:1px silver solid;
+  font-size: 11px;
+}
+
+*/
+
+#AjaxShipping
+{
+    width: 99%;
+    border: solid 1px #444;
+    height: 100%;
+    float: left;
+    padding: 3px;
+}
+#AjaxShipping h4
+{
+    margin: 0 0 0.5em 0;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.AjaxShippingLabel
+{
+    width: 175px !important;
+    float: left;
+    font-weight: bold;
+    clear: left;
+}
+#AjaxShipping input, #AjaxShipping select
+{
+    font-size: 1em;
+    float: left;
+}
+#AjaxShippingCountry, #AjaxShippingState, #AjaxShippingZip, #AjaxShippingEstimate
+{
+    float: left;
+    clear: left;
+    border-top: solid 1px #eee;
+    width: 99%;
+    padding: 3px 0;
+}
+#ShipQuote
+{
+    float: left;
+    margin: 0;
+}
+/* Set Visibility to :hidden and uncomment 'display' to turn off */
+#AjaxShippingCountry
+{
+    visibility: visible;
+    /*display:none;*/
+}
+#AjaxShippingState
+{
+    visibility: visible;
+    /*display:none;*/
+}
+.OrderOptionsTitle  {font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; }
+.OrderOptionsRowHeader  { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; }
+.OrderOptionsName  {  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: normal; }
+.OrderOptionsDescription  {  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: normal; }
+.OrderOptionsPrice  { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 8pt; }
+
+/* Kit Specific Styles */
+#KitSideBar
+{
+	border:solid 1px Gray;
+	position:absolute;
+	z-index:99; /*999999999 !important;*/
+	width:180px;
+	background-color:#FFFFE1;
+	/*right:10px;*/
+	margin-left: 10px;
+}
+
+#KitAddToCartForm
+{
+	padding: 5px 5px 10px 5px;
+	margin: 0px 5px 0px 5px;
+	border-top: solid 1px Gray;
+	text-align: center;
+}
+
+#KitPlaceHolder
+{
+	width:150px;
+}
+
+#KitTable
+{
+	width:500px;
+	/*border-top: solid 1px red;*/
+		
+}
+
+#KitTable td
+{
+	padding: 4px 0px 4px 0px;
+}
+
+#KitAddToCartFormHeader
+{
+	border-bottom:solid 3px #444;
+	/*height:15px;*/
+	text-align:center;
+}
+
+#KitAddToCartFormPrice
+{
+	line-height:30px;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 5px 0px 5px;
+	border-bottom: solid 1px Gray;
+}
+
+.KitAddToCartFormPrice
+{
+	/*line-height:30px;*/
+	padding: 5px 5px 5px 5px;
+	margin: 0px 5px 0px 5px;
+	border-bottom: solid 1px Gray;
+}
+
+.KitAddToCartFormDetailsHeader
+{
+	text-align:center;
+	text-decoration:underline;
+}
+
+
+.KitAddToCartFormDetails
+{
+	padding: 0px 5px 0px 5px;
+	margin-left: 10px;
+}
+
+.KitTableGroup
+{
+	/*
+	border-top:solid 1px Black;	
+	border-left:solid 1px Black;	
+	border-right:solid 1px Black;	
+	border-bottom:solid 5px Green;	
+	line-height:20px;
+	*/
+	background-color: #f5f5f5; 
+}
+
+.KitRowSpacer
+{
+	/*height:45px;*/
+}
+
+.KitSpacer
+{
+	/*
+	border:solid 1px Lime;
+	background-color:Aqua;
+	*/
+	height:10px;	
+}
+
+
+
+#KitAddToCartFormDetailsHeader
+{
+	text-align:center;
+	text-decoration:underline;
+}
+
+#KitAddToCartFormDetails
+{
+	padding: 0px 5px 0px 5px;
+	margin-left: 10px;
+}
+
+#KitSideBar input[type="button"]
+{
+	width:120px;	
+	text-align:center;
+	margin-top:3px;
+}
+
+
+.KitRegularBasePrice
+{
+	font-style:italic;
+	text-decoration:line-through;
+}
+
+.KitBasePrice
+{
+}
+
+.KitBasePriceOnSale
+{
+}
+
+.KitCustomizedPrice
+{
+}
+
+.KitCustomizedPriceOnSale
+{
+}
+
+.KitLevelPrice
+{
+}
+
+.KitLevelPriceOnSale
+{
+}
+
+.dhtmltooltip
+{
+	border:0;
+	/*border: 2px solid black;*/
+	padding: 2px;
+	font-size: 11px;
+	background-color: lightyellow;
+	/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
+.CardCodeTooltip
+{
+	border:0;
+	/*border: 2px solid black;*/
+	padding: 2px;
+	background-color: #DDD;
+	/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
+.Kit2dhtmltooltip
+{
+	border:0;
+	margin-top:20px;
+	/*border: 2px solid black;*/
+	padding: 2px;
+	font-size: 11px;
+	background-color: lightyellow;
+	/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
+
+
+.ShippingAndTaxEstimateAddress
+{
+	border: solid 1px #aaa;
+	width:100%;
+}
+
+.ShippingAndTaxEstimateAddress .Header
+{
+	text-align:center;
+	font-weight:bold;
+	background-color:#ddd;
+}
+
+.ShippingAndTaxEstimateAddress .Caption
+{
+	width:30%;
+	text-align:left;
+	vertical-align:top;
+}
+
+.ShippingAndTaxEstimateAddress .Value
+{
+	width:70%;
+	text-align:left;
+	vertical-align:top;
+}
+
+.ShippingAndTaxEstimateAddress .ErrorMessage
+{
+	width:100%;
+	text-align:center;
+	vertical-align:middle;
+	color:Red;
+	font-weight:bold;
+}
+
+.ShippingAndTaxEstimator
+{
+	border:solid 1px #aaa;
+	width:100%;
+}
+
+.ShippingAndTaxEstimator .Header
+{
+	text-align:center;
+	font-weight:bold;
+	background-color:#ddd;
+}
+
+.ShippingAndTaxEstimator .Caption
+{
+	font-weight:bold;
+	width:30%;
+	text-align:left;
+	vertical-align:top;
+}
+
+.ShippingAndTaxEstimator .Value
+{
+	width:70%;
+	text-align:right;
+	vertical-align:top;
+}
+
+.ShippingEstimatorPanel
+{
+	width:350px;
+	border:dashed 1px gray;
+	padding: 5px 5px 5px 5px;
+}
+
+.WishListWarning
+{
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.ShippingEstimatorPanel
+{
+	width:350px;
+	border:dashed 1px gray;
+	padding: 5px 5px 5px 5px;
+}
+
+#KitError
+{
+	text-align:center;
+	vertical-align:middle;
+	padding:5px 5px 5px 5px;
+}
+
+#lblKitError
+{
+	color:Red;	
+}
+
+/* default class for stock hint display */
+.StockHint
+{
+	font-size:11px;
+}
+
+.StockHint_OutOfStock
+{
+	color:red;
+}
+
+.StockHint_InStock
+{
+	color:blue;
+}
+
+/* indented class variation for stock hint display */
+.StockHint_Indented
+{
+	text-indent:10px;
+	font-size:11px;
+}
+
+.StockHint_Indented_OutOfStock
+{
+	color:red;
+}
+
+.StockHint_Indented_InStock
+{
+	color:blue;
+}
+
+
+
+/*********************************************/
+/*************For Featured Products***********/
+/*********************************************/
+
+
+.featuredProductLinks
+{
+	color: #000000;	
+	font-weight: bold;
+}
+.featuredProductLinks a
+{
+	color:#e42625;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	text-decoration:none;
+}
+.featuredProductLinks a:hover
+{
+	color:#2d8bcb;
+}
+.featuredProductDescription
+{
+	padding-top: 10px;
+	font-weight: normal;
+}
+#content input[type=button]:hover{ cursor:pointer; background:#fbb041; color:#000;}
+#content input[type=button]{font-size: 1em;color: white;background: #273c90;border-radius: 10px;padding: 8px;font-weight: bold;}
+.featuredProductPrice .SalePrice{ visibility:hidden;}
+.featuredProductPrice
+{
+	background-image:url(/skins/Skin_1/images/price.jpg);
+	background-repeat:no-repeat;
+	width:200px;
+	height:90px;
+	
+	padding-top: 26px;
+	/*padding-bottom :0px;*/
+	padding-left:115px;
+/*	text-align:right;*/
+	
+	color:#FFF;
+	font-stretch:expanded;
+	font-weight:bold;
+
+}
+
+
+*html .featuredProductPrice
+{
+	background-image:url(/skins/Skin_1/images/price.jpg);
+	background-repeat:no-repeat;
+	width:240px;
+	height:90px;
+}
+.RegularPrice
+{
+	text-decoration:line-through;
+	/*font-size:9px;*/
+	padding-left:-5px;
+}
+.SalePrice{
+	color:#fff;
+	/*font-size:10px;*/
+	margin-left:-5px;
+}
+.fmore {
+	text-align:right;
+}
+.fmore a{
+	color:#5d5d5d;
+	text-decoration:none;
+}
+.fmore a:hover{
+	color:#2c8ac9;
+}
+.fcmore{
+
+	text-align:center;
+}
+.fcmore a{
+	background-image:url(/skins/Skin_1/images/fcmore-r.jpg);
+	color:#FFF;
+padding:1px 7px 3px 7px;
+text-decoration:none;
+}
+.fcmore a:hover{
+	background-image:url(/skins/Skin_1/images/fcmore-b.jpg);
+	color:#000;
+	text-decoration:none;
+}
+
+.featuredTeaser
+{
+	color: #000000;	
+	font-weight: bold;
+}
+.rbgx-featured{
+	background-image:url(/skins/Skin_1/images/Specialsexpanded.gif);
+	height:150px;
+	width:100%;
+	
+}
+.rbgimg{
+	text-align:center;
+}
+
+
+
+/* CSS for productratings [begin] */
+
+.CommentHelpfulText
+{
+	 font-family: Arial,Helvetica;
+	 color: #009999;
+}
+
+.CommentHelpfulYes
+{
+	font-family: Arial,Helvetica;
+	color: #006600;
+}
+
+.CommentHelpfulNo
+{
+	font-family: Arial,Helvetica;
+	color: #006600;
+	
+}
+
+.CommentCell
+{
+	background-color: #FFFFFF;
+}
+
+.RatingCommentText
+{
+	color: #000000;
+}
+
+.CommentAuthor
+{
+	color: #000000;
+}	
+/****** [end] ******/
+
+
+
+/* CSS for Checkout GiftCard [begin] */
+
+.CheckoutEmailGiftCardHeader
+{
+	/* default color - #cccccc */
+	background-color: #cccccc;
+	color:#000000;
+}
+
+/****** [end] ******/
+
+
+
+/* CSS for Checkout Terms And Conditions [begin] */
+
+.CheckOutTermsBorder
+{
+	border-style: dashed; 
+	border-width: 1px; 
+	border-color: #000000;
+}
+/****** [end] ******/
+
+
+
+
+/* CSS for Affiliate Page [begin] */
+
+.AffiliateHeaderTd
+{
+	/* -- original --
+	font-size: smaller;
+	font-weight:bold;
+	color: #ffffff;
+	background-color: #AAAAAA;
+	-- -- */
+	font-size: smaller;
+	font-weight:bold;
+	color: #ffffff;
+	background-color: #CCCCCC;
+	padding: 3px;
+}
+
+.AffiliateTextCell
+{
+	background-color: #DDDDDD;
+	color: #000000;
+	padding: 3px;
+}
+
+.AffiliateLinks, .AffiliateLinks a:link, .AffiliateLinks a:active, .AffiliateLinks a:visited
+{
+	color: #000000;
+}
+
+.AffiliateLinks a:hover
+{
+	color: #4776BD;
+}
+
+.AffiliateForgotPasswordText
+{
+	color: #000000;
+}
+
+.AffiliateForgotPasswordText span
+{
+	color: #000000;
+	font-weight: bold;
+}
+
+/****** [end] ******/
+
+
+/* CSS for Multiple Shipping [begin] */
+.MultiShippingAddressHeaderLeft
+{
+	color:#000000;
+	background-color: #dddddd;
+}
+
+.MultiShippingAddressHeaderRight
+{
+	color:#000000;
+	background-color: #dddddd;
+}
+
+/****** [end] ******/
+
+
+
+/* CSS for Recent Comments */
+
+.RecentCommentsHeader
+{
+	background-color: #CCCCCC;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	height: 25px;
+}
+
+.RecentCommentsHeaderBorder
+{
+	background-color: #FFFFFF;
+}
+
+.RecentCommentsFooter
+{
+	background-color: #CCCCCC;
+}
+
+.RecentCommentsBorder
+{
+	background-color: #CCCCCC;
+}
+
+.RecentCommentsCell
+{
+	background-color:#FFFFFF;
+	color:#000000;
+	text-align:center;
+}
+
+.pnlRecentCommentSort
+{
+	background-color: #FFFFCC;
+}
+
+.RecentCommentSortText
+{
+	color: #FF0000;
+}
+
+.RecentCommentReSortText
+{
+	color: #000000;
+	font-weight: bold;
+}
+
+.RecentCommentIsolateHeader
+{
+	background-color: #009999;
+}
+
+.RecentCommentIsolateHeaderText
+{
+	color:#FFFFFF;
+	text-align:center;
+	font-weight:bold;
+}
+
+.RecentCommentIsolateCell
+{
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+.RecentCommentsPagingTop
+{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+/** [end] **/
+
+
+/* CSS for RateIt.aspx */
+
+.rateitBG
+{
+	background-color:#336699;
+	margin: 0px;
+}
+
+.rateittable
+{
+	background-color:#336699;
+}
+
+.rateitlabel
+{
+	font-family: arial,helvetica;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.rateitproductname
+{
+	background-color: #FFFFCC;
+}
+
+.rateitbox
+{
+	background-color: #FFFFFF;
+}
+
+.rateitddl
+{
+	font-size: 10px;
+}
+
+.rateittext
+{
+	font-size:12px;
+}
+/**		[end]	**/
+/***************************************************/
+/**************TabbedUI prototype*******************/
+
+#pagetabs
+{
+	width: 100%;	
+}
+
+#pagetabs a
+{
+	background: white url(images/tab_out.gif) top left repeat-x;
+	background-color: #DDDDDD;
+	border-left: solid 1px black;
+	border-top: solid 1px black;
+	border-right: solid 1px black;
+	color: #696969;
+	padding: 5px 5px 0px 5px;
+	position:relative;
+	margin-right:3px;
+	text-decoration: none;
+	vertical-align:middle;
+}
+
+#pagetabs a:hover
+{
+	text-decoration: underline;
+	color: #ffffff;
+	background: white url(images/tab_over.gif) top left repeat-x;
+}
+
+#pagetabs a.activetab
+{
+	padding: 5px 5px 1px 5px;
+	position: relative;
+	top: 1px;
+	color: #ffffff;
+	background-image: url(images/tab_over.gif);
+	border-bottom-color: white;
+}
+
+#pagetabs a.activetab:hover
+{
+	text-decoration: none;
+}
+
+#tabcontent
+{
+	border: solid 1px gray;
+	margin:0px;	
+	padding-top:0px;
+	padding-bottom: 10px;
+	width:100%;
+}
+
+#tabcontent div.hiddenTab
+{
+	display:none;
+}
+
+#tabcontent div.selectedTab
+{
+	display:block;
+}
+.red{
+	color:#CCC;
+	
+	text-align:center;
+
+	font-size:12px;
+	background:#FFF;
+
+
+}
+
+.red a:hover{
+	color:#1b4e78;
+}
+
+.red a{
+	color:#1295d7;
+}
+#rbgxf 
+{
+	text-align:center;
+	color:#CCC;
+	font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:9px;
+	background-color:#FFF;
+}
+#rbgxf a:link, #rbgxf a:visited
+{
+	color:#ccc;
+	text-decoration:none;
+	}
+	
+	
+	#sddm
+{	margin: 0;
+	padding: 6 0 0 0;
+	z-index: 30;}
+
+#sddm li
+{	margin: 0;
+	padding: 9px 0px;
+	list-style: none;
+	float: left;
+	font: bold 11px arial;
+	width: 12%;
+	display:inline;
+	}
+
+#sddm li a
+{	display: block;
+color: white;
+text-align: center;
+text-decoration: none;
+font: 1.04em verdana;
+	}
+
+*html #sddm li a
+{	display: block;
+	/*margin: 0 1px 0 0;*/
+	padding: 4px 5px 4px 5px;
+	width: 100px;
+/*	background: #5970B2;*/
+	height:20px;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+	font-stretch:expanded;
+	font: 11px arial;
+	
+	}
+
+#sddm li a:hover
+{	/*background: #49A3FF*/
+}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #eee;
+	border: 1px solid #5970B2;}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 6px 5px 6px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background:#eee;
+		color:#000000;
+		font: 11px Arial;
+		
+		}
+*html #sddm div a
+	{
+		color:#000000;
+		text-align:left;
+	}
+
+	#sddm div a:hover
+	{	background: #49A3FF;
+		color: #FFF;}
+*html #sddm div a:hover
+	{	background: #49A3FF;
+		color: #FFF;
+		width:100%;
+		text-align:left;
+		}
+		
+		#horizNavnew
+{
+   /* text-align: -moz-center;
+	text-align:-webkit-center;
+		#text-align:center;
+	*/
+
+    width: 907px;
+    margin: 0;
+    clear: left;
+    line-height: 35px;
+    height: 35px;
+    background: #699EDC url(images/nav-bg.gif) repeat;
+    border-top: solid 1px #888;
+    border-bottom: solid 1px #888;
+  /*  position: relative;
+    z-index: 1;*/
+}
+*html #horizNavnew
+{
+	
+	
+	width: 909px;
+/*	margin:0 auto;
+#text-align:center;
+		margin-left:0px;
+		padding-left:5px;
+		text-align:-webkit-center;
+		padding-right:5px;*/
+}
+/*.slideshow { height: 232px; width: 100%; margin: auto; background:#ccc; }
+.slideshow img { padding: 15px; border: 1px solid #ccc; background-color: #eee; }*/
+
+.slideshow { margin-left:2px; height: 232px; width: 902px; margin:auto;  }
+.slideshow img { text-align:center; padding: 15px; border: 1px solid #ccc; background-color: #eee; }
+.flinksnew{
+	position:absolute;
+	margin-top: 90px;
+	margin-left: 150px;
+}
+
+
+.downloadCatalog {
+    float: left;
+}
+
+    .downloadCatalog section {
+        margin-bottom: 10px;
+        min-height: 290px;
+        border: solid 2px #000;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: #eee;
+    }
+
+        .downloadCatalog section figure {
+            float: left;
+            margin: 0 auto;
+            padding: 30px;
+            max-width: 140px;
+            max-height: 200px;
+        }
+
+            .downloadCatalog section figure img {
+                max-width: 140px;
+                max-height: 200px;
+            }
+
+            .downloadCatalog section figure figcaption {
+                color: #000;
+                text-align: center;
+                -ms-word-wrap: break-word;
+                word-wrap: break-word;
+                font-weight: bold;
+            }

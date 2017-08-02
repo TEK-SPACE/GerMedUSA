@@ -1,0 +1,716 @@
+﻿body
+{
+	/*margin: 0px 0px 0px 0px;*/
+	padding: 0px 0px 0px 0px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	font-family: Verdana, Arial;
+	font-size: 11px;
+}
+
+table
+{
+	font-family: Verdana, Arial;
+	font-size: 11px;
+}
+
+/* TABLES */
+/*#content{margin: 5px 5px 5px 5px;}*/
+#content .outerTable
+{
+	background-color: #EBEBEB;
+	padding-bottom: 0px;/*5*/
+}
+#content .innerTable
+{	
+	background-color: #f9f9f9;
+	width: 100%;
+	height: 100%;	
+}
+#content .contentTable
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	text-align: left;
+}
+#content .contentTableAP
+{
+	padding-top: 3px;
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	text-align: left;
+}
+#content .contentTableAPL
+{
+	padding-top: 3px;
+	padding-left: 0px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	text-align: left;
+}
+#content .contentTableAPR
+{
+	padding-top: 3px;
+	padding-left: 5px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	text-align: left;
+}
+#content .contentTableNPLR
+{
+	padding-top: 3px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	text-align: left;
+}
+#content .contentTablePRB
+{
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	text-align: left;
+}
+#content .contentTableNP
+{
+	padding-bottom: 3px;
+	padding-right: 0px;
+	text-align: left;
+}
+#content .titleTable
+{
+	background-color: #EBEBEB;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	text-align: left;
+}
+
+.wrapper
+{
+	padding: 5px 5px 5px 5px;	
+	background-color: #f9f9f9;
+}
+.wrapperNR
+{
+	padding: 5px 0px 5px 5px;	
+	background-color: #f9f9f9;
+}
+.wrapperExtraTop
+{
+	padding: 10px 5px 5px 5px;	
+	background-color: #f9f9f9;
+}
+
+.wrapperLeft
+{
+	padding: 5px 5px 5px 0px;
+	background-color: #f9f9f9;
+}
+.wrapperTopBottom
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #f9f9f9;
+}
+.wrapperBottom
+{
+	padding-bottom: 5px;
+	background-color: #f9f9f9;
+}
+.wrapperTop
+{
+	padding-top: 5px;
+	background-color: #f9f9f9;
+}
+.wrapperRight
+{
+	margin-right: 5px;
+	background-color: #f9f9f9;
+}
+
+/*#help{margin: 5px 5px 5px 5px;}*/
+#help .outerTable
+{
+	background-color: #EBEBEB;
+}
+#help .innerTable
+{	
+	background-color: #f9f9f9;
+}
+#help .contentTable
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	text-align: left;
+}
+#help .titleTable
+{
+	background-color: #EBEBEB;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	text-align: left;
+}
+
+#reportTable
+{
+	text-align: left;
+	font-size: 11px;
+}
+#reportTable .reportOuter
+{
+	background-color: #a2a2a2;	
+}
+#reportTable .reportTitle
+{
+	text-align: left;
+	font-size: 11px;
+	background-color: #404040;
+	color: White;
+	font-weight: bold;
+}
+#reportTable .reportHeader
+{
+	text-align: left;
+	font-size: 10px;
+	background-color: #d2d2d2;
+	color: Black;
+	font-weight: bold;
+}
+#reportTable .reportRow
+{
+	text-align: left;
+	font-size: 10px;
+	background-color: #e2e2e2;
+	color: #202020;
+	font-weight: normal;
+}
+
+/* TEXT */
+.title
+{
+	font-weight: bold;
+	/*font-size: 15px;*/
+	font-size: 11px;
+}
+.titleMessage
+{
+	font-style: italic;
+	font-size: 11px;
+}
+
+.subTitle
+{
+	font-weight: bold;	
+	font-size: 11px;
+}
+.subTitleSmall
+{
+	font-weight: normal;	
+	font-size: 10px;
+	margin-right: 3px;
+	white-space: nowrap;
+}
+
+.errorMsg
+{
+	color: Red;	
+	font-weight: bold;
+}
+.noticeMsg
+{
+	color: #303030;
+	font-weight: bold;
+}
+
+.exampleText
+{
+font-size: 10px;
+font-weight: normal;
+}
+
+/* STANDARD BUTTONS */
+.normalButton
+{
+   color:#000080;
+   font-size:100%;
+   font-weight:normal;
+   background-color:#fed;
+   border-top-color:#696;
+   border-left-color:#696;
+   border-right-color:#363;
+   border-bottom-color:#363;
+   filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#ffffffff',EndColorStr='#ffeeddaa');
+}
+
+.fileUpload
+{
+   color:#000080;
+   font-size:100%;
+   font-weight:normal;
+   filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#ffffffff',EndColorStr='#ffeeddaa');
+}
+
+.stringResourceButton
+{
+
+   color:#000080;
+   font-family:'trebuchet ms',helvetica,sans-serif;
+   font-size:100%;
+   font-weight:normal;
+   background-color:#fed;
+   border:1px solid;
+   border-top-color:#696;
+   border-left-color:#696;
+   border-right-color:#363;
+   border-bottom-color:#363;
+   filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#ffffffff',EndColorStr='#ffeeddaa');
+}
+
+
+/* TEXT BOXES */
+.default
+{
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;
+}
+
+.singleTax
+{
+	width: 55px;
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;
+}
+
+.singleShortest
+{
+	width: 45px;
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;
+}
+.single3chars
+{
+	width: 25px;
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;
+}
+.single4chars
+{
+	width: 35px;
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;
+}
+.singleShorter
+{
+	width: 100px;
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;
+}
+.singleNormal
+{
+	width: 200px;
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;
+}
+.singleLonger
+{
+	width: 300px;
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;
+}
+.singleLongest
+{
+	width: 450px;
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;
+}
+.singleAuto
+{
+	width: 95%;
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;
+}
+
+.singleAutoFull
+{
+	width: 100%;
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;
+}
+
+.multiNormal
+{
+	width: 246px;
+	height: 45px;
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;	
+}
+.multiShorter
+{
+	width: 175px;
+	height: 45px;
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;	
+}
+
+.multiLong
+{
+	width: 350px;
+	height: 45px;
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;	
+}
+.multiAuto
+{
+	width: 98%;
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;	
+	overflow: visible;
+	border: solid 1px #a2a2a2;
+	margin: 0px 0px 0px 0px;
+}
+
+.multiAutoNormal
+{
+	width: 95%;
+	height: 45px;
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;	
+}
+
+.multiExtension
+{	
+	color: #000080;
+	font-family: Verdana, Arial;
+	background-color: #f9f9f9;
+	font-size: 11px;	
+	overflow: auto;
+}
+
+
+/* GRID */
+.overallGrid
+{
+	border: solid 1px #a2a2a2;
+	padding: 0px 0px 0px 0px;
+	font-size: 11px;
+}
+
+.headerGrid
+{
+	background-color: #EBEBEB;
+	font-size: 8px;
+	color: #000000;
+	text-align: left;
+	padding-left: 3px;
+	padding-bottom: 2px;
+	padding-right: 3px;
+	padding-top: 2px;
+	font-weight: normal;
+	font-style: italic;
+	white-space: nowrap;
+}
+
+.DataCellGrid
+{
+	background-color: #f2f2f2;
+	padding: 1px 2px 1px 2px;
+}
+.DataCellGridAlt
+{
+	background-color: #FFFFE0;
+	padding: 1px 2px 1px 2px;
+}
+.DataCellGridEdit
+{
+	background-color: yellow;
+	padding: 1px 2px 1px 2px;
+}
+.selectData
+{
+	white-space: normal;
+}
+.normalData
+{
+	white-space: normal;
+}
+.lightData
+{
+	color: #404040;
+	white-space: normal;
+}
+.lighterData
+{
+	color: #606060;
+	white-space: normal;
+}
+.lightestData
+{
+	color: #909090;
+	white-space: normal;
+}
+.footerGrid
+{
+	background-color: #EBEBEB;
+	font-size: 11px;
+	text-align: center;
+	color: #303030;
+	padding: 2px 15px 2px 15px;
+}
+
+.pagerGrid
+{
+	background-color: #EBEBEB;
+}
+
+/*
+-----------------------------------------------------------------------
+ Component Art Tree Style:
+-----------------------------------------------------------------------
+*/
+
+.TreeView 
+{ 
+  background-color:transparent;
+  border: #919191 0px solid; 
+  padding-top:5px;
+  cursor: default; 
+  color: #000080;
+  cursor: hand;
+}
+
+.TreeNode 
+{ 
+  font-size: 11px; 
+  color: #000080;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 1px; 
+  padding-right: 3px; 
+  cursor: hand; 
+  cursor:pointer;
+  height: 13px;
+  margin: 0px 0px 0px 0px;
+}
+
+.HoverTreeNode 
+{ 
+  color: red;
+  font-size: 11px; 
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 1px; 
+  padding-right: 3px; 
+  text-decoration: none; 
+  cursor: hand; 
+  cursor:pointer;
+  background-color: #FFCC00;
+  height: 13px;
+  margin: 0px 0px 0px 0px;
+}
+
+.SelectedTreeNode 
+{ 
+  font-size: 11px; 
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 1px; 
+  padding-right: 3px; 
+  background-color: #FFCC00; 
+  cursor: hand; 
+  cursor:pointer;
+  color: #404040;
+  height: 13px;
+  margin: 0px 0px 0px 0px;
+}
+
+.NodeEdit 
+{
+  border:1px silver solid;
+  font-size: 11px;
+}
+
+.TreeRow
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;	
+	height: 15px;
+}
+
+.TreeMargin
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+/*
+-----------------------------------------------------------------------
+ Component Art Tab Style:
+-----------------------------------------------------------------------
+*/
+.SelectedTab
+{
+	background-color: #FFCC00;
+	color: #404040;
+	font-weight: bold;
+	border-top: solid 1px #404040;
+	border-right: solid 1px #404040;
+	border-left: solid 1px #404040;	
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 13px;
+}
+.DefaultTab
+{
+	background-color: #f2f2f2;
+	color: #000080;
+	border-top: solid 1px #404040;
+	border-right: solid 1px #404040;
+	border-left: solid 1px #404040;	
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 12px;
+	cursor: hand;
+}
+
+
+/* TREE */
+.treeStyle
+{
+	padding-left: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.hoverNode
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: yellow;
+}
+.normalNode
+{
+	padding-top: -5px;
+	padding-bottom: -5px;
+	margin-top: -5px;
+	margin-bottom: -5px;
+	color: #000080;
+}
+.selectedNode
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	color: Red;
+}
+
+
+/* OTHER */
+ul
+{
+	list-style-type: none;
+	list-style-position: outside;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+li
+{
+	margin-left: 0px;	
+	margin-top: 5px;
+}
+
+/* TABS */
+.tabWrapper
+{
+	
+}
+.tabs {position: inherit; height: 18px; margin: 0px 0px 0px 0px; padding:0px 0px 0px 0px; background-image:url("../../skins/skin_1/images/bar_off.gif"); background-repeat: repeat-x; overflow:hidden}
+.tabs li {display:inline;}
+.tabs a:hover, .tabs a.tab-active {height: 18px; color: Red; background:#ffffff url("../../skins/skin_1/images/bar_on.gif") repeat-x;} 
+.tabs a {height: 18px; font:10px verdana, helvetica, sans-serif;font-weight:normal; position:inherit; padding: 6px 10px 10px 10px; margin: 0px -4px 0px 0px; color:#2B4353;text-decoration:none;border-left:1px solid #ffffff; border-right:1px solid #6D99B6;}
+.tab-container {background: #ffffff; border:1px solid #6D99B6; overflow:visible; height:50px;}
+.tab-panes { margin: 3px }
+
+/* TOOLTIP */
+#dhtmltooltip{
+position: absolute;
+left: -300px;
+width: 150px;
+border: 1px solid black;
+padding: 2px;
+background-color: #FFFACD;
+visibility: hidden;
+z-index: 100;
+/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
+
+#dhtmlpointer{
+position:absolute;
+left: -300px;
+z-index: 101;
+visibility: hidden;
+}
+
+#fixedtipdiv{
+position: absolute;
+padding: 3px 5px 3px 5px;
+border: 1px dashed #666666;
+font: normal 10px Verdana;
+}
+
+
+/* CONTRACTABLE HEADERS */
+.switchcontent{display:none;}

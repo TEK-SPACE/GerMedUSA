@@ -1,0 +1,39 @@
+<SiteMap>
+	<!-- Home -->
+	<!-- <item Text="(!admin.menu.Home!)" NavigateUrl="splash.aspx" LookId="TopItemLook"/>-->
+	
+	<!-- Products Menu -->
+	<item Text="(!admin.menu.Products!)" NavigateUrl="entityframe.aspx" LookId="TopItemLook">
+		<item Text="(!admin.menu.ProductMgr!)" NavigateUrl="entityframe.aspx" />
+		<!-- Deprecated function - Old product editor page.  Only useful for very large sites -->
+		<!-- <item Text="(!admin.menu.ProductEdit!)" NavigateUrl="products.aspx?objectname=product" /> -->
+		<item Text="(!admin.menu.ProductTypes!)" NavigateUrl="producttypes.aspx" />
+		<item Text="(!admin.menu.Manufacturers!)" NavigateUrl="entityframe.aspx?entityname=manufacturer" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15" />
+		<item Text="(!admin.menu.Distributors!)" NavigateUrl="entityframe.aspx?entityname=distributor" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15"  />
+		
+		<item Text="(!admin.menu.ProductPrices!)" NavigateUrl="prices.aspx" />
+		<item Text="(!admin.menu.ProductSalePrices!)" NavigateUrl="saleprices.aspx" />
+		<item Text="(!admin.menu.ProductImportExport!)" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15">
+		<!--	<item Text="(!admin.menu.ProductLoadFromXml!)" NavigateUrl="importproductsfromxml.aspx" />
+			<item Text="(!admin.menu.ProductLoadFromExcel!)" NavigateUrl="importproductsfromexcel.aspx" />-->
+			<item Text="(!admin.menu.PriceExport!)" NavigateUrl="exportProductPricing.aspx" />
+			<item Text="(!admin.menu.PriceImport!)" NavigateUrl="importProductPricing.aspx" />
+		</item>
+	<!--	<item Text="(!admin.menu.Feeds!)" NavigateUrl="feeds.aspx" />-->
+	</item>
+	<!-- Organization Menu -->
+	<item Text="(!admin.menu.Organization!)" NavigateUrl="entityframe.aspx?entityname=category"  LookId="TopItemLook">
+		<item Text="(!admin.menu.Categories!)" NavigateUrl="entityframe.aspx?entityname=category" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15"/>
+		<item Text="(!admin.menu.Sections!)" NavigateUrl="entityframe.aspx?entityname=section" Look-RightIconUrl="arrow.gif" Look-RightIconWidth="15"/>
+		<!-- Genres and Vectors are unsupported entities for use by developers familiar with our entity structure
+		<item Text="(!admin.menu.Genres!)" NavigateUrl="entityframe.aspx?entityname=genre" />
+		<item Text="(!admin.menu.Vectors!)" NavigateUrl="entityframe.aspx?entityname=vector" />
+		-->
+	</item>
+	<!-- Content Menu -->
+	<item Text="(!admin.menu.Content!)" NavigateUrl="entityframe.aspx?entityname=category"  LookId="TopItemLook">
+		<item Text="(!admin.menu.Topics!)" NavigateUrl="topics.aspx" />
+		<item Text="(!admin.menu.News!)" NavigateUrl="news.aspx" />
+		<!--<item Text="(!admin.menu.StringResources!)" NavigateUrl="stringresource.aspx" />-->
+	</item>
+</SiteMap>
